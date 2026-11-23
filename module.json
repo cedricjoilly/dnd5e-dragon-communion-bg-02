@@ -1,0 +1,53 @@
+{
+  "name": "dnd5e-dragon-communion-bg",
+  "title": "Dragon Communion Background",
+  "description": "A custom D&D 5e background for Foundry VTT: Dragon Communion - Hunt dragons, consume their hearts, and risk becoming a Magma Wyrm.",
+  "version": "1.0.0",
+  "author": "Mateus e Lucas",
+  "esmodules": ["scripts/dragon-communion.js"],
+  "styles": ["styles/dragon-communion.css"],
+  "scripts": [],
+  "packs": [
+    {
+      "name": "backgrounds",
+      "label": "Dragon Communion Backgrounds",
+      "path": "packs/backgrounds.db",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "3.0.0",
+          "verified": "4.0.0"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/yourusername/dnd5e-dragon-communion-bg",
+  "manifest": "https://github.com/yourusername/dnd5e-dragon-communion-bg/releases/latest/download/module.json",
+  "download": "https://github.com/yourusername/dnd5e-dragon-communion-bg/releases/latest/download/module.zip",
+  "license": "MIT",
+  "readme": "README.md"
+}

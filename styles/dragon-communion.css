@@ -1,0 +1,133 @@
+/* -------------------------------------------- */
+/*  Dragon Communion Background - Custom Styles */
+/* -------------------------------------------- */
+
+/* Sanity resource bar styling */
+.resource-sanity .resource-bar {
+  background: linear-gradient(90deg, #8b0000 0%, #ff4500 50%, #ff8c00 100%);
+}
+
+.resource-sanity .resource-bar.fill {
+  background: linear-gradient(90deg, #ff8c00 0%, #ff4500 50%, #8b0000 100%);
+}
+
+/* Sanity tracker in character sheet */
+.dragon-communion-sanity {
+  border: 2px solid #c41e3a;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 8px 0;
+  background: linear-gradient(135deg, #1a0a0a 0%, #2d0d0d 100%);
+}
+
+.dragon-communion-sanity .sanity-label {
+  color: #ffd700;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85em;
+}
+
+.dragon-communion-sanity .sanity-value {
+  color: #ff4500;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
+}
+
+.dragon-communion-sanity .sanity-thresholds {
+  margin-top: 8px;
+  font-size: 0.75em;
+}
+
+.dragon-communion-sanity .threshold {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 8px;
+  margin: 2px 0;
+  border-radius: 3px;
+  opacity: 0.5;
+  transition: opacity 0.3s, background 0.3s;
+}
+
+.dragon-communion-sanity .threshold.active {
+  opacity: 1;
+  background: rgba(255, 69, 0, 0.2);
+  border-left: 3px solid #ff4500;
+}
+
+.dragon-communion-sanity .threshold.low-sanity {
+  color: #ff4500;
+}
+
+.dragon-communion-sanity .threshold.mid-sanity {
+  color: #ff8c00;
+}
+
+.dragon-communion-sanity .threshold.high-sanity {
+  color: #ffd700;
+}
+
+/* Active effect indicators for dragon communion */
+.active-effect.dragon-communion {
+  border-left: 3px solid #ff4500;
+}
+
+.active-effect.dragon-communion .effect-name {
+  color: #ff8c00;
+}
+
+/* Magma Wyrm transformation warning */
+.magma-wyrm-warning {
+  animation: magmaPulse 2s infinite;
+  background: linear-gradient(45deg, #8b0000, #ff4500, #ff8c00);
+  background-size: 200% 200%;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 0 20px rgba(255, 69, 0, 0.5);
+}
+
+@keyframes magmaPulse {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Dragon heart item styling */
+.item-dragon-heart .item-name {
+  color: #c41e3a;
+  font-style: italic;
+}
+
+.item-dragon-heart .item-icon {
+  filter: drop-shadow(0 0 8px rgba(196, 30, 58, 0.6));
+}
+
+/* Dragonskin equipment styling */
+.item-dragonskin .item-name {
+  color: #8b4513;
+}
+
+/* Tooltip enhancements for sanity effects */
+.tooltip .sanity-effect {
+  border-left: 3px solid #ff4500;
+  padding-left: 8px;
+  margin: 4px 0;
+}
+
+.tooltip .sanity-effect.active {
+  background: rgba(255, 69, 0, 0.1);
+}
+
+/* Character sheet tab styling for Dragon Communion */
+.tabs .item[data-tab="dragon-communion"] {
+  color: #ff8c00;
+}
+
+.tabs .item[data-tab="dragon-communion"].active {
+  border-bottom-color: #ff4500;
+  color: #ffd700;
+}

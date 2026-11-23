@@ -1,0 +1,188 @@
+[
+  {
+    "_id": "dragonCommunionBackground",
+    "name": "Dragon Communion",
+    "type": "background",
+    "img": "icons/magic/fire/flame-burning-sword-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>The dragons once ruled the skies. Now the few that remain serve the Golden Order. You eschew their teachings, preferring instead to hunt them down. To commune with the dragons is to consume their hearts, eventually taking on their very physiology. But beware; those on the path to dragon communion can be overtaken by their powerful blood.</p><hr><h3>Journey of Fire</h3><p>To consume a dragon's heart is a heretical act. The powers it grants are tremendous, but the path of dragon communion curses many to crawl on their bellies in misshapen form for eternity.</p><p>When your sanity score is below 10, you gain the benefits described in the table above. You gain all of the benefits for your sanity score and those below it. For example, if your sanity score was 4, you would have the benefits of the abilities you gained at 9, 7, and 5 together.</p><p>Whenever you slay a dragon, your Sanity score increases by 1.</p><table><thead><tr><th>Sanity Score</th><th>Effect</th></tr></thead><tbody><tr><td>8-9</td><td>You have advantage on Survival rolls made to track dragons, and Intelligence checks made to recall information about them.</td></tr><tr><td>6-7</td><td>You have advantage on saving throws against dragon attacks and abilities.</td></tr><tr><td>4-5</td><td>You have resistance to fire damage.</td></tr><tr><td>2-3</td><td>Your spell save DC increases by 1 when casting Dragon Communion incantations.</td></tr><tr><td>1</td><td>Your attacks against dragons deal an additional 3d6 damage on a hit.</td></tr><tr><td>0</td><td>Your form crumples, giving way to the dragon blood's transformation. You transform into a Magma Wyrm, losing all mental faculties and becoming an NPC under the DM's control.</td></tr></tbody></table>",
+        "chat": "",
+        "unidentified": ""
+      },
+      "source": {
+        "custom": "Dragon Communion Background"
+      },
+      "feature": {
+        "name": "Journey of Fire",
+        "description": "<p>To consume a dragon's heart is a heretical act. The powers it grants are tremendous, but the path of dragon communion curses many to crawl on their bellies in misshapen form for eternity.</p><p>When your sanity score is below 10, you gain the benefits described in the table above. You gain all of the benefits for your sanity score and those below it. For example, if your sanity score was 4, you would have the benefits of the abilities you gained at 9, 7, and 5 together.</p><p>Whenever you slay a dragon, your Sanity score increases by 1.</p><table><thead><tr><th>Sanity Score</th><th>Effect</th></tr></thead><tbody><tr><td>8-9</td><td>You have advantage on Survival rolls made to track dragons, and Intelligence checks made to recall information about them.</td></tr><tr><td>6-7</td><td>You have advantage on saving throws against dragon attacks and abilities.</td></tr><tr><td>4-5</td><td>You have resistance to fire damage.</td></tr><tr><td>2-3</td><td>Your spell save DC increases by 1 when casting Dragon Communion incantations.</td></tr><tr><td>1</td><td>Your attacks against dragons deal an additional 3d6 damage on a hit.</td></tr><tr><td>0</td><td>Your form crumples, giving way to the dragon blood's transformation. You transform into a Magma Wyrm, losing all mental faculties and becoming an NPC under the DM's control.</td></tr></tbody></table>"
+      },
+      "skillProficiencies": {
+        "primary": ["sur", "nat"],
+        "secondary": [],
+        "choose": {
+          "count": 0,
+          "pool": [],
+          "from": "all"
+        }
+      },
+      "toolProficiencies": {
+        "primary": ["leatherworker"],
+        "secondary": [],
+        "choose": {
+          "count": 0,
+          "pool": [],
+          "from": "all"
+        }
+      },
+      "languageProficiencies": {
+        "primary": [],
+        "secondary": [],
+        "choose": {
+          "count": 1,
+          "pool": [],
+          "from": "all"
+        }
+      },
+      "equipment": {
+        "items": [
+          {
+            "name": "Dragon Heart",
+            "quantity": 1,
+            "description": "A still-beating heart from a slain dragon, pulsing with latent draconic power.",
+            "weight": 5,
+            "value": 0,
+            "equipped": false,
+            "identified": true,
+            "container": null,
+            "magical": false,
+            "type": "loot"
+          },
+          {
+            "name": "Butchering Tools",
+            "quantity": 1,
+            "description": "A set of cleavers and small knives suited for harvesting dragon parts.",
+            "weight": 3,
+            "value": 5,
+            "equipped": false,
+            "identified": true,
+            "container": null,
+            "magical": false,
+            "type": "tool"
+          },
+          {
+            "name": "Sturdy Dragonskin Sack",
+            "quantity": 1,
+            "description": "A tough sack made from the hide of a dragon, resistant to fire and claws.",
+            "weight": 2,
+            "value": 20,
+            "equipped": false,
+            "identified": true,
+            "container": null,
+            "magical": false,
+            "type": "container"
+          },
+          {
+            "name": "Leatherworker's Tools",
+            "quantity": 1,
+            "description": "Tools for working leather and hide, including needles, thread, and punches.",
+            "weight": 5,
+            "value": 5,
+            "equipped": false,
+            "identified": true,
+            "container": null,
+            "magical": false,
+            "type": "tool"
+          },
+          {
+            "name": "Commoner's Clothes",
+            "quantity": 1,
+            "description": "Simple, practical clothing worn by common folk.",
+            "weight": 3,
+            "value": 0.5,
+            "equipped": true,
+            "identified": true,
+            "container": null,
+            "magical": false,
+            "type": "clothing"
+          }
+        ],
+        "currency": {
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        }
+      },
+      "personalityTraits": {
+        "options": [
+          "I speak in a low rasp, as if my throat still burns from dragon fire.",
+          "I measure everyone I meet by how they'd fare against a dragon.",
+          "I hoard small shiny objects, a habit I can't quite shake.",
+          "I have trouble sleeping indoors; I prefer the open sky.",
+          "I mutter draconic curses when frustrated.",
+          "I'm always scanning the skies, watching for wings on the horizon.",
+          "I refer to gold as 'scales' and wealth as 'hoard'.",
+          "I eat my meat rare, barely seared by flame."
+        ],
+        "choose": 2
+      },
+      "ideals": {
+        "options": [
+          "Freedom: Dragons deserve to fly free, not serve tyrants. (Chaotic)",
+          "Power: Consuming dragon hearts makes me stronger; I'll take that power. (Evil)",
+          "Knowledge: The secrets of dragon physiology must be catalogued and understood. (Neutral)",
+          "Duty: Someone must hunt those who oppress dragonkind. (Lawful)",
+          "Redemption: By slaying corrupted dragons, I atone for my own draconic corruption. (Good)",
+          "Survival: The strong eat the weak. I intend to be the one eating. (Any)"
+        ],
+        "choose": 1
+      },
+      "bonds": {
+        "options": [
+          "A specific dragon killed someone I loved; I'll find its heart.",
+          "I carry the heart of the first dragon I slew; it still beats against my palm.",
+          "My mentor was consumed by dragon blood; I seek to finish their hunt.",
+          "I owe my life to a dragon that spared me; I hunt its kin in penance.",
+          "A dragonskin cloak I wear was a gift from a fallen comrade.",
+          "I seek the legendary 'Primordial Heart' said to grant true dragonhood."
+        ],
+        "choose": 1
+      },
+      "flaws": {
+        "options": [
+          "The dragon blood whispers to me; sometimes I listen.",
+          "I cannot resist a chance to harvest a dragon's parts, even at great risk.",
+          "I view all scaled creatures as potential resources.",
+          "My sanity frays near dragons; I've attacked allies in the confusion.",
+          "I hoard food and treasure instinctively, unable to share.",
+          "The fire in my veins makes me reckless; I charge in where angels fear to tread."
+        ],
+        "choose": 1
+      },
+      "startingSanity": 10,
+      "maxSanity": 10
+    },
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "dnd5e": {
+        "backgroundType": "custom",
+        "sanityTracking": true
+      }
+    },
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "4.0.0",
+      "coreVersion": "12.331",
+      "createdTime": 1732300000000,
+      "modifiedTime": 1732300000000,
+      "lastModifiedBy": "user"
+    }
+  }
+]

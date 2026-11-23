@@ -1,0 +1,18 @@
+{
+  "BACKGROUND.DragonCommunion": "Comunhão Draconica",
+  "BACKGROUND.DragonCommunion.Description": "Os dragões outrora governavam os céus. Agora, os poucos que restam servem a Ordem Dourada. Você rejeita seus ensinamentos, preferindo caçá-los. Comungar com os dragões é consumir seus corações, eventualmente assumindo sua própria fisiologia. Mas cuidado; aqueles no caminho da comunhão draconica podem ser dominados por seu sangue poderoso.",
+  "BACKGROUND.DragonCommunion.FeatureName": "Jornada do Fogo",
+  "BACKGROUND.DragonCommunion.FeatureDescription": "Consumir o coração de um dragão é um ato herético. Os poderes que concede são tremendo, mas o caminho da comunhão draconica amaldiçoa muitos a rastejar sobre seus ventres em formas disformes pela eternidade.\n\nQuando sua pontuação de sanidade está abaixo de 10, você ganha os benefícios descritos na tabela acima. Você ganha todos os benefícios para sua pontuação de sanidade e os abaixo dela. Por exemplo, se sua pontuação de sanidade fosse 4, você teria os benefícios das habilidades que ganhou em 9, 7 e 5 juntas.\n\nSempre que você mata um dragão, sua pontuação de Sanidade aumenta em 1.",
+  "BACKGROUND.DragonCommunion.SanityTable": "Efeitos da Pontuação de Sanidade",
+  "BACKGROUND.DragonCommunion.Sanity.8-9": "Vantagem em testes de Sobrevivência para rastrear dragões e testes de Inteligência para recordar informações sobre eles.",
+  "BACKGROUND.DragonCommunion.Sanity.6-7": "Vantagem em testes de resistência contra ataques e habilidades de dragões.",
+  "BACKGROUND.DragonCommunion.Sanity.4-5": "Resistência a dano de fogo.",
+  "BACKGROUND.DragonCommunion.Sanity.2-3": "CD de salvamento de magias aumenta em 1 ao conjurar encantamentos de Comunhão Draconica.",
+  "BACKGROUND.DragonCommunion.Sanity.1": "Seus ataques contra dragões causam 3d6 de dano adicional em um acerto.",
+  "BACKGROUND.DragonCommunion.Sanity.0": "Sua forma se desmorona, cedendo à transformação do sangue draconico. Você se transforma em uma Serpe de Magma, perdendo todas as faculdades mentais e se tornando um NPC sob controle do Mestre.",
+  "BACKGROUND.DragonCommunion.Equipment.DragonHeart": "Coração de Dragão",
+  "BACKGROUND.DragonCommunion.Equipment.ButcheringTools": "Ferramentas de Açougueiro",
+  "BACKGROUND.DragonCommunion.Equipment.DragonskinSack": "Saco Resistente de Pele de Dragão",
+  "BACKGROUND.DragonCommunion.Equipment.LeatherworkerTools": "Ferramentas de Courreiro",
+  "BACKGROUND.DragonCommunion.Equipment.CommonerClothes": "Roupas de Plebeu"
+}

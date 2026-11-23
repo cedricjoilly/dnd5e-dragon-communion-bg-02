@@ -1,0 +1,18 @@
+{
+  "BACKGROUND.DragonCommunion": "Dragon Communion",
+  "BACKGROUND.DragonCommunion.Description": "The dragons once ruled the skies. Now the few that remain serve the Golden Order. You eschew their teachings, preferring instead to hunt them down. To commune with the dragons is to consume their hearts, eventually taking on their very physiology. But beware; those on the path to dragon communion can be overtaken by their powerful blood.",
+  "BACKGROUND.DragonCommunion.FeatureName": "Journey of Fire",
+  "BACKGROUND.DragonCommunion.FeatureDescription": "To consume a dragon's heart is a heretical act. The powers it grants are tremendous, but the path of dragon communion curses many to crawl on their bellies in misshapen form for eternity.\n\nWhen your sanity score is below 10, you gain the benefits described in the table above. You gain all of the benefits for your sanity score and those below it. For example, if your sanity score was 4, you would have the benefits of the abilities you gained at 9, 7, and 5 together.\n\nWhenever you slay a dragon, your Sanity score increases by 1.",
+  "BACKGROUND.DragonCommunion.SanityTable": "Sanity Score Effects",
+  "BACKGROUND.DragonCommunion.Sanity.8-9": "Advantage on Survival rolls to track dragons and Intelligence checks to recall information about them.",
+  "BACKGROUND.DragonCommunion.Sanity.6-7": "Advantage on saving throws against dragon attacks and abilities.",
+  "BACKGROUND.DragonCommunion.Sanity.4-5": "Resistance to fire damage.",
+  "BACKGROUND.DragonCommunion.Sanity.2-3": "Spell save DC increases by 1 when casting Dragon Communion incantations.",
+  "BACKGROUND.DragonCommunion.Sanity.1": "Attacks against dragons deal an additional 3d6 damage on a hit.",
+  "BACKGROUND.DragonCommunion.Sanity.0": "Transform into a Magma Wyrm, losing all mental faculties and becoming an NPC under the DM's control.",
+  "BACKGROUND.DragonCommunion.Equipment.DragonHeart": "Dragon Heart",
+  "BACKGROUND.DragonCommunion.Equipment.ButcheringTools": "Butchering Tools",
+  "BACKGROUND.DragonCommunion.Equipment.DragonskinSack": "Sturdy Dragonskin Sack",
+  "BACKGROUND.DragonCommunion.Equipment.LeatherworkerTools": "Leatherworker's Tools",
+  "BACKGROUND.DragonCommunion.Equipment.CommonerClothes": "Commoner's Clothes"
+}
